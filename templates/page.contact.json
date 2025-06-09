@@ -1,1 +1,215 @@
-{"sections":{"rich_text_VQd7eh":{"type":"rich-text","blocks":{"heading_86H8U4":{"type":"heading","settings":{"heading":"Kontakt","heading_size":"h1"}},"text_dPm4AU":{"type":"text","disabled":true,"settings":{"text":"<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>"}}},"block_order":["heading_86H8U4","text_dPm4AU"],"settings":{"desktop_content_position":"left","content_alignment":"left","color_scheme":"scheme-2","full_width":true,"padding_top":20,"padding_bottom":20}},"main":{"type":"main-page","disabled":true,"settings":{"padding_top":20,"padding_bottom":20}},"rich_text_HgHDNU":{"type":"rich-text","blocks":{"heading_P8J7XE":{"type":"heading","disabled":true,"settings":{"heading":"Erzähle etwas über deine Marke","heading_size":"h1"}},"text_begyaU":{"type":"text","disabled":true,"settings":{"text":"<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>"}},"button_E9C6mY":{"type":"button","settings":{"button_label":"Kontaktformular","button_link":"shopify:\/\/pages\/kontaktformular","button_style_secondary":false,"button_label_2":"","button_link_2":"tel:+4917632876488","button_style_secondary_2":false}}},"block_order":["heading_P8J7XE","text_begyaU","button_E9C6mY"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":false,"padding_top":20,"padding_bottom":0}},"rich_text_KWzjrL":{"type":"rich-text","blocks":{"heading_XVCPpK":{"type":"heading","disabled":true,"settings":{"heading":"Erzähle etwas über deine Marke","heading_size":"h1"}},"text_jqwqcL":{"type":"text","disabled":true,"settings":{"text":"<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>"}},"button_W6Q8A7":{"type":"button","settings":{"button_label":"","button_link":"shopify:\/\/pages\/kontaktformular","button_style_secondary":false,"button_label_2":"telefonische Beratung","button_link_2":"tel:+4917632876488","button_style_secondary_2":false}}},"block_order":["heading_XVCPpK","text_jqwqcL","button_W6Q8A7"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":false,"padding_top":20,"padding_bottom":0}},"rich_text_p8UjX7":{"type":"rich-text","blocks":{"heading_MgtVpK":{"type":"heading","disabled":true,"settings":{"heading":"Erzähle etwas über deine Marke","heading_size":"h1"}},"text_PeL3Xe":{"type":"text","disabled":true,"settings":{"text":"<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>"}},"button_C4UJ7h":{"type":"button","settings":{"button_label":"E-Mail an info@harms3d.de","button_link":"mailto:info@harms3d.de","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_MgtVpK","text_PeL3Xe","button_C4UJ7h"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"","full_width":false,"padding_top":20,"padding_bottom":20}},"rich_text_EpYG3T":{"type":"rich-text","blocks":{"heading_wx3WD6":{"type":"heading","settings":{"heading":"Wir freuen uns darauf, Ihnen weiterzuhelfen.","heading_size":"h2"}}},"block_order":["heading_wx3WD6"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"scheme-1","full_width":true,"padding_top":0,"padding_bottom":40}}},"order":["rich_text_VQd7eh","main","rich_text_HgHDNU","rich_text_KWzjrL","rich_text_p8UjX7","rich_text_EpYG3T"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_VQd7eh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_86H8U4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kontakt",
+            "heading_size": "h1"
+          }
+        },
+        "text_dPm4AU": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_86H8U4",
+        "text_dPm4AU"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "rich_text_HgHDNU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_P8J7XE": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Erzähle etwas über deine Marke",
+            "heading_size": "h1"
+          }
+        },
+        "text_begyaU": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.</p>"
+          }
+        },
+        "button_E9C6mY": {
+          "type": "button",
+          "settings": {
+            "button_label": "Kontaktformular",
+            "button_link": "shopify://pages/kontaktformular",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "tel:+4917632876488",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_P8J7XE",
+        "text_begyaU",
+        "button_E9C6mY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_KWzjrL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XVCPpK": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Erzähle etwas über deine Marke",
+            "heading_size": "h1"
+          }
+        },
+        "text_jqwqcL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.</p>"
+          }
+        },
+        "button_W6Q8A7": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "shopify://pages/kontaktformular",
+            "button_style_secondary": false,
+            "button_label_2": "telefonische Beratung",
+            "button_link_2": "tel:+4917632876488",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XVCPpK",
+        "text_jqwqcL",
+        "button_W6Q8A7"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_p8UjX7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MgtVpK": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Erzähle etwas über deine Marke",
+            "heading_size": "h1"
+          }
+        },
+        "text_PeL3Xe": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.</p>"
+          }
+        },
+        "button_C4UJ7h": {
+          "type": "button",
+          "settings": {
+            "button_label": "E-Mail an info@harms3d.de",
+            "button_link": "mailto:info@harms3d.de",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MgtVpK",
+        "text_PeL3Xe",
+        "button_C4UJ7h"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "rich_text_EpYG3T": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wx3WD6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wir freuen uns darauf, Ihnen weiterzuhelfen.",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wx3WD6"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "rich_text_VQd7eh",
+    "main",
+    "rich_text_HgHDNU",
+    "rich_text_KWzjrL",
+    "rich_text_p8UjX7",
+    "rich_text_EpYG3T"
+  ]
+}

@@ -1,18 +1,32 @@
 <div id="section-{{ section.id }}">
   <div class="page-width">
-    {% for werkstoff in section.settings.werkstoff_list %}
-      <script>
-        console.log('{{ werkstoff.key }}');
-        console.log('{{ werkstoff | json }}');
-        console.log('{{ werkstoff.key | json }}');
-        console.log('{{ werkstoff.handle | json }}');
-      </script>
-      <a class="werkstoff-teaser" href="/pages/material/{{ werkstoff.name | handle }}">
-        <h2>{{ werkstoff.name }}</h2>
-      </a>
-    {% endfor %}
+    <div class="werkstoff-teaser-list">
+      {% for werkstoff in section.settings.werkstoff_list %}
+        <script>
+          console.log('{{ werkstoff.key }}');
+          console.log('{{ werkstoff | json }}');
+          console.log('{{ werkstoff.key | json }}');
+          console.log('{{ werkstoff.handle | json }}');
+        </script>
+        <a class="werkstoff-teaser" href="/pages/material/{{ werkstoff.name | handle }}">
+          <h2>{{ werkstoff.name }}</h2>
+        </a>
+      {% endfor %}
+    </div>
   </div>
 </div>
+
+{% stylesheet %}
+  .werkstoff-teaser-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .werkstoff-teaser {
+    text-decoration: none;
+  }
+{% endstylesheet %}
 
 {% schema %}
 {

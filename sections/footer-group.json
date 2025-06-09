@@ -1,1 +1,65 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","blocks":{"link_list_Eqh3ir":{"type":"link_list","settings":{"heading":"","menu":"footer"}},"image_emYYdY":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/logo150_1.png","image_width":100,"alignment":"right"}},"image_qAgf8R":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/logo_white_large_4a64c432-dfbe-4949-8de8-acc400cafaf8.png","image_width":250,"alignment":"right"}}},"block_order":["link_list_Eqh3ir","image_emYYdY","image_qAgf8R"],"settings":{"color_scheme":"scheme-3","newsletter_enable":false,"newsletter_heading":"Bleib auf dem Laufenden","enable_follow_on_shop":true,"show_social":true,"enable_country_selector":true,"enable_language_selector":true,"payment_enable":true,"show_policy":false,"margin_top":0,"padding_top":36,"padding_bottom":36}}},"order":["footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "link_list_Eqh3ir": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
+        },
+        "image_emYYdY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo150_1.png",
+            "image_width": 100,
+            "alignment": "right"
+          }
+        },
+        "image_qAgf8R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo_white_large_4a64c432-dfbe-4949-8de8-acc400cafaf8.png",
+            "image_width": 250,
+            "alignment": "right"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_Eqh3ir",
+        "image_emYYdY",
+        "image_qAgf8R"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "newsletter_enable": false,
+        "newsletter_heading": "Bleib auf dem Laufenden",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
