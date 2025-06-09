@@ -62,6 +62,13 @@
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
+                <script>
+                  console.log('{{ block.settings.metaobject | json }}');
+                  console.log('{{ block.settings.metaobject.technisches_datenblatt }}');
+                  console.log('{{ block.settings.metaobject.technisches_datenblatt | file_url }}');
+                  console.log('{{ block.settings.metaobject.technisches_datenblatt.url | file_url }}');
+                </script>
+
                 {%- if block.settings.button_label != blank -%}
                   <a
                     {% if block.settings.metaobject.technisches_datenblatt != blank %}

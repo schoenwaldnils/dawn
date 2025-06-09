@@ -24,9 +24,9 @@
   {%- liquid
     assign swatch_focal_point = null
     assign custom_color = null
-
+    
     if product.metafields.custom.material.value != blank
-      assign material_items = product.metafields.custom.material.value | where: 'label', value
+      assign material_items = product.metafields.custom.material.value | where: "label", value
       if material_items.size > 0 and material_items.first.color != blank
         assign custom_color = material_items.first.color
       endif

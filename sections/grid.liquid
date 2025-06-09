@@ -1,0 +1,189 @@
+{% comment %}
+  Renders a grid component.
+  Accepts:
+  - columns_sm: {Number} the number of columns to display on small screens
+  - columns_md: {Number} the number of columns to display on medium screens
+  - columns_lg: {Number} the number of columns to display on large screens
+  - gap: {String} the gap between grid items. Accepts 'small', 'medium', 'large'
+{% endcomment %}
+
+{%- liquid
+  assign columns_sm = section.settings.columns_sm | default: 1
+  assign columns_md = section.settings.columns_md | default: 2
+  assign columns_lg = section.settings.columns_lg | default: 3
+  
+  assign gap_sm = "1rem"
+  assign gap_md = "2rem"
+  assign gap_lg = "3rem"
+
+  if section.settings.gap == 'small'
+    assign gap_sm = "0.5rem"
+    assign gap_md = "1rem"
+    assign gap_lg = "1.5rem"
+  elsif section.settings.gap == 'medium'
+    assign gap_sm = "1rem"
+    assign gap_md = "2rem"
+    assign gap_lg = "3rem"
+  elsif section.settings.gap == 'large'
+    assign gap_sm = "1.5rem"
+    assign gap_md = "3rem"
+    assign gap_lg = "4rem"
+  endif
+-%}
+
+{%- style -%}
+  .sw_grid {
+    display: grid;
+    grid-template-columns: repeat({{ columns_sm }}, 1fr);
+    gap: {{ gap_sm }};
+  }
+
+  @media screen and (min-width: 750px) {
+    .sw_grid {
+      grid-template-columns: repeat({{ columns_md }}, 1fr);
+      gap: {{ gap_md }};
+    }
+  }
+
+  @media screen and (min-width: 990px) {
+    .sw_grid {
+      grid-template-columns: repeat({{ columns_lg }}, 1fr);
+      gap: {{ gap_lg }};
+    }
+  }
+{%- endstyle -%}
+
+<div class="page-width">
+<div class="sw_grid sw_grid--{{ section.id }}" data-columns="{{ section.settings.columns }}" data-gap="{{ section.settings.gap }}">
+  {% for block in section.blocks %}
+    <div class="sw_grid-item">
+      {% render block %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% javascript %}
+        const chartEl = document.querySelector("#chart")
+        const label = chartEl.dataset.label
+        const fields = JSON.parse(chartEl.dataset.fields)
+
+        const options = {
+          series: [{
+            name: 'Series 1',
+            data: fields,
+          }],
+          chart: {
+            toolbar: {
+              show: false
+            },
+            height: 350,
+            type: 'radar',
+            dropShadow: {
+              enabled: true,
+              blur: 1,
+              left: 1,
+              top: 1
+            }
+          },
+          title: {
+            text: label
+          },
+          stroke: {
+            width: 2
+          },
+          fill: {
+            opacity: 0.1
+          },
+          markers: {
+            size: 0
+          },
+          yaxis: {
+            stepSize: 20
+          },
+          xaxis: {
+            categories: [
+              'Temperaturbestaendigkeit',
+              'UV-Bestaendigkeit',
+              'Chemische Beständigkeit',
+              'Schlagzähigkeit/Flexibilitaet',
+              'Kosten',
+              'Steifigkeit',
+              'Oberflächenqualität',
+              'Detailgenauigkeit',
+              'Farbvielfalt',
+              'Umweltfreundlichkeit',
+            ]
+          }
+        };
+
+        // const chart = new ApexCharts(document.querySelector("#chart"), options);
+
+        // chart.render();
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "Grid",
+  "settings": [
+    {
+      "type": "range",
+      "id": "columns_sm",
+      "label": "Columns (Small)",
+      "default": 1,
+      "min": 1,
+      "max": 4,
+      "step": 1
+    },
+    {
+      "type": "range",
+      "id": "columns_md",
+      "label": "Columns (Medium)",
+      "default": 2,
+      "min": 1,
+      "max": 4,
+      "step": 1
+    },
+    {
+      "type": "range",
+      "id": "columns_lg",
+      "label": "Columns (Large)",
+      "default": 3,
+      "min": 1,
+      "max": 4,
+      "step": 1
+    },
+    {
+      "type": "select",
+      "id": "gap",
+      "label": "Gap",
+      "default": "small",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@theme"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Grid",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
