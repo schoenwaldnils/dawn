@@ -23,6 +23,15 @@
 {%- for value in option.values -%}
   {%- liquid
     assign swatch_focal_point = null
+    assign custom_color = null
+
+    if product.metafields.custom.material.value != blank
+      assign material_items = product.metafields.custom.material.value | where: 'label', value
+      if material_items.size > 0 and material_items.first.color != blank
+        assign custom_color = material_items.first.color
+      endif
+    endif
+
     if value.swatch.image
       assign image_url = value.swatch.image | image_url: width: 50
       assign swatch_value = 'url(' | append: image_url | append: ')'
@@ -69,6 +78,7 @@
       name: input_name,
       value: value | escape,
       swatch: value.swatch,
+      custom_color: custom_color,
       product_form_id: product_form_id,
       checked: value.selected,
       visually_disabled: option_disabled,

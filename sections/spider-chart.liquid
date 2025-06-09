@@ -1,0 +1,25 @@
+<div id="section-{{ section.id }}">
+  <div class="page-width">
+    {% render 'spider-chart', werkstoff: section.settings.werkstoff %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Spider Chart",
+  "settings": [
+    {
+      "type": "metaobject",
+      "id": "werkstoff",
+      "label": "Werkstoff",
+      "metaobject_type": "werkstoff"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Spider Chart",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

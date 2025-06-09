@@ -1,0 +1,127 @@
+{% comment %}
+  Renders Werkstoff spider chart
+
+  Accepts:
+  - werkstoff: {Object} werkstoff meta object.
+  Usage:
+  {% render 'spider-chart', werkstoff: werkstoff %}
+{% endcomment %}
+
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+<div
+  class="spider_chart"
+  id="spider_chart--{{ werkstoff.id }}"
+  data-label="{{ werkstoff.name }}"
+  data-fields="
+    [&quot;{{ werkstoff.temperaturbestaendigkeit }}&quot;,
+    &quot;{{ werkstoff.uv_bestaendigkeit }}&quot;,
+    &quot;{{ werkstoff.chemische_bestaendigkeit }}&quot;,
+    &quot;{{ werkstoff.schlagzaehigkeit_flexibilitaet }}&quot;,
+    &quot;{{ werkstoff.kosten }}&quot;,
+    &quot;{{ werkstoff.steifigkeit }}&quot;,
+    &quot;{{ werkstoff.oberflaechenqualitaet }}&quot;,
+    &quot;{{ werkstoff.detailgenauigkeit }}&quot;,
+    &quot;{{ werkstoff.farbvielfalt }}&quot;,
+    &quot;{{ werkstoff.umweltfreundlichkeit }}&quot;]
+  "
+></div>
+
+{% javascript %}
+  const chartElements = document.querySelectorAll('.spider_chart');
+
+  chartElements.forEach((chartEl) => {
+    const label = chartEl.dataset.label;
+    const fields = JSON.parse(chartEl.dataset.fields);
+
+    const options = {
+      colors: ['#0089D8'],
+      series: [
+        {
+          name: 'Eigenschaften',
+          data: fields,
+        },
+      ],
+      chart: {
+        toolbar: {
+          show: false,
+        },
+        // height: 400,
+        type: 'radar',
+      },
+      // responsive: [
+      //   {
+      //     breakpoint: 750,
+      //     options: {
+      //       height: 600,
+      //     },
+      //   },
+      // ],
+      // title: {
+      //   text: label
+      // },
+      stroke: {
+        width: 2,
+      },
+      fill: {
+        opacity: 0.5,
+      },
+      markers: {
+        size: 0,
+      },
+      yaxis: {
+        show: false,
+        stepSize: 20,
+      },
+      xaxis: {
+        categories: [
+          'Temperaturbestaendigkeit',
+          'UV-Bestaendigkeit',
+          'Chemische Beständigkeit',
+          'Schlagzähigkeit/Flexibilitaet',
+          'Kosten',
+          'Steifigkeit',
+          'Oberflächenqualität',
+          'Detailgenauigkeit',
+          'Farbvielfalt',
+          'Umweltfreundlichkeit',
+        ],
+        labels: {
+          show: true,
+          style: {
+            colors: [
+              '#545454',
+              '#545454',
+              '#545454',
+              '#545454',
+              '#545454',
+              '#545454',
+              '#545454',
+              '#545454',
+              '#545454',
+              '#545454',
+            ],
+            fontSize: '10px',
+            fontFamily: 'inherit',
+          },
+        },
+      },
+      responsive: [
+        {
+          breakpoint: 600,
+          xaxis: {
+            labels: {
+              style: {
+                fontSize: '14px',
+              },
+            },
+          },
+        },
+      ],
+    };
+
+    const chart = new ApexCharts(chartEl, options);
+
+    chart.render();
+  });
+{% endjavascript %}

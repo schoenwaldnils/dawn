@@ -1,0 +1,42 @@
+<div id="section-{{ section.id }}">
+  <div class="page-width">
+    {% for werkstoff in section.settings.werkstoff_list %}
+      <script>
+        console.log('{{ werkstoff.key }}');
+        console.log('{{ werkstoff | json }}');
+        console.log('{{ werkstoff.key | json }}');
+        console.log('{{ werkstoff.handle | json }}');
+      </script>
+      <a class="werkstoff-teaser" href="/pages/material/{{ werkstoff.name | handle }}">
+        <h2>{{ werkstoff.name }}</h2>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .werkstoff-teaser {
+    display: block;
+    text-decoration: none;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Material Liste",
+  "settings": [
+    {
+      "type": "metaobject_list",
+      "id": "werkstoff_list",
+      "label": "Werkstoff List",
+      "metaobject_type": "werkstoff"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Material Liste",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

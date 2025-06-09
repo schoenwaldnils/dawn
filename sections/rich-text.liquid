@@ -64,7 +64,10 @@
               >
                 {%- if block.settings.button_label != blank -%}
                   <a
-                    {% if block.settings.button_link == blank %}
+                    {% if block.settings.metaobject.technisches_datenblatt != blank %}
+                      data-file="{{ block.settings.metaobject | json }}"
+                      href="{{ block.settings.metaobject.technisches_datenblatt | file_url }}" download
+                    {% elsif block.settings.button_link == blank %}
                       role="link" aria-disabled="true"
                     {% else %}
                       href="{{ block.settings.button_link }}"
@@ -76,7 +79,10 @@
                 {%- endif -%}
                 {%- if block.settings.button_label_2 != blank -%}
                   <a
-                    {% if block.settings.button_link_2 == blank %}
+                    {% if block.settings.metaobject_2.technisches_datenblatt != blank %}
+                      data-file="{{ block.settings.metaobject_2 | json }}"
+                      href="{{ block.settings.metaobject_2.sicherheitsdatenblatt | file_url }}" download
+                    {% elsif block.settings.button_link_2 == blank %}
                       role="link" aria-disabled="true"
                     {% else %}
                       href="{{ block.settings.button_link_2 }}"
@@ -290,9 +296,9 @@
       "limit": 2,
       "settings": [
         {
-         "type": "header",
-         "content": "t:sections.rich-text.blocks.buttons.settings.header_button1.content"
-        },        
+          "type": "header",
+          "content": "t:sections.rich-text.blocks.buttons.settings.header_button1.content"
+        },
         {
           "type": "text",
           "id": "button_label",
@@ -306,15 +312,21 @@
           "label": "t:sections.rich-text.blocks.buttons.settings.button_link_1.label"
         },
         {
+          "type": "metaobject",
+          "id": "metaobject",
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_link_1.label",
+          "metaobject_type": "werkstoff"
+        },
+        {
           "type": "checkbox",
           "id": "button_style_secondary",
           "default": false,
           "label": "t:sections.rich-text.blocks.buttons.settings.button_style_secondary_1.label"
         },
         {
-         "type": "header",
-         "content": "t:sections.rich-text.blocks.buttons.settings.header_button2.content"
-        },          
+          "type": "header",
+          "content": "t:sections.rich-text.blocks.buttons.settings.header_button2.content"
+        },
         {
           "type": "text",
           "id": "button_label_2",
@@ -325,6 +337,12 @@
           "type": "url",
           "id": "button_link_2",
           "label": "t:sections.rich-text.blocks.buttons.settings.button_link_2.label"
+        },
+        {
+          "type": "metaobject",
+          "id": "metaobject_2",
+          "label": "t:sections.rich-text.blocks.buttons.settings.button_link_1.label",
+          "metaobject_type": "werkstoff"
         },
         {
           "type": "checkbox",
