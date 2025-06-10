@@ -15,15 +15,15 @@
   data-label="{{ werkstoff.name }}"
   data-fields="
     [
-    &quot;{{ werkstoff.kosten }}&quot;,
+    &quot;{{ werkstoff.schlagzaehigkeit_flexibilitaet }}&quot;,
     &quot;{{ werkstoff.temperaturbestaendigkeit }}&quot;,
+    &quot;{{ werkstoff.kosten }}&quot;,
+    &quot;{{ werkstoff.farbvielfalt }}&quot;,
     &quot;{{ werkstoff.uv_bestaendigkeit }}&quot;,
     &quot;{{ werkstoff.chemische_bestaendigkeit }}&quot;,
-    &quot;{{ werkstoff.schlagzaehigkeit_flexibilitaet }}&quot;,
-    &quot;{{ werkstoff.steifigkeit }}&quot;,
     &quot;{{ werkstoff.oberflaechenqualitaet }}&quot;,
+    &quot;{{ werkstoff.steifigkeit }}&quot;,
     &quot;{{ werkstoff.detailgenauigkeit }}&quot;,
-    &quot;{{ werkstoff.farbvielfalt }}&quot;,
     &quot;{{ werkstoff.umweltfreundlichkeit }}&quot;
     ]
   "
@@ -77,15 +77,15 @@
       },
       xaxis: {
         categories: [
-          'Kosten',
+          'Schlagzähigkeit/Flexibilitaet',
           'Temperaturbestaendigkeit',
+          'Kosten',
+          'Farbvielfalt',
           'UV-Bestaendigkeit',
           'Chemische Beständigkeit',
-          'Schlagzähigkeit/Flexibilitaet',
-          'Steifigkeit',
           'Oberflächenqualität',
+          'Steifigkeit',
           'Detailgenauigkeit',
-          'Farbvielfalt',
           'Umweltfreundlichkeit',
         ],
         labels: {
