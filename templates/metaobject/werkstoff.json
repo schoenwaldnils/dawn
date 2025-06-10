@@ -94,7 +94,7 @@
           "type": "column",
           "settings": {
             "title": "Nachteile",
-            "text": "{{ metaobject.liste_negative_materialeigenschaften | metafield_tag }}",
+            "text": "<p></p>{{ metaobject.liste_negative_materialeigenschaften | metafield_tag }}",
             "link_label": "",
             "link": ""
           }
