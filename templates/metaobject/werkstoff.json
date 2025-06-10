@@ -39,7 +39,7 @@
         "text_WXRh3J": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ metaobject.beschreibung | metafield_tag }}</p><h2>Einsatzbeispiele</h2><p>{{ metaobject.einsatzbeispiele | metafield_tag }}</p><h2>Downloads</h2>"
+            "text": "<p>{{ metaobject.beschreibung | metafield_tag }}</p><h2>Einsatzbeispiele</h2>{{ metaobject.liste_einsatzbeispiele | metafield_tag }}<h2>Downloads</h2>"
           }
         },
         "button_FLDAXw": {
