@@ -85,7 +85,7 @@
           "type": "column",
           "settings": {
             "title": "Vorteile",
-            "text": "<p></p><p>{{ metaobject.test_liste | metafield_tag }}</p>",
+            "text": "<p></p>{{ metaobject.liste_positive_materialeigenschaften | metafield_tag }}",
             "link_label": "",
             "link": ""
           }
@@ -94,7 +94,7 @@
           "type": "column",
           "settings": {
             "title": "Nachteile",
-            "text": "<p>{{ metaobject.negative_materialeigenschaften | metafield_tag }}</p>",
+            "text": "{{ metaobject.liste_negative_materialeigenschaften | metafield_tag }}",
             "link_label": "",
             "link": ""
           }
