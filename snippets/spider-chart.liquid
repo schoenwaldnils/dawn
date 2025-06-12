@@ -9,7 +9,7 @@
 
 <script src="{{ 'chart.umd.js' | asset_url }}" blocking></script>
 
-<div
+<canvas
   class="spider_chart"
   id="spider_chart--{{ werkstoff.id }}"
   data-label="{{ werkstoff.name }}"
@@ -27,7 +27,7 @@
     &quot;{{ werkstoff.umweltfreundlichkeit }}&quot;
     ]
   "
-></div>
+></canvas>
 
 {% javascript %}
   const chartElements = document.querySelectorAll('.spider_chart');
