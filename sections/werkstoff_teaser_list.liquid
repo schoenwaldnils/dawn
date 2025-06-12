@@ -1,18 +1,61 @@
-<div id="section-{{ section.id }}">
+<div id="section-{{ section.id }}" class="WerkstoffTeaserList">
   <div class="page-width">
-    {% for werkstoff in section.settings.werkstoff_list %}
-      <script>
-        console.log('{{ werkstoff.key }}');
-        console.log('{{ werkstoff | json }}');
-        console.log('{{ werkstoff.key | json }}');
-        console.log('{{ werkstoff.handle | json }}');
-      </script>
-      <a class="werkstoff-teaser" href="/pages/material/{{ werkstoff.name | handle }}">
-        <h2>{{ werkstoff.name }}</h2>
-      </a>
-    {% endfor %}
+    <div class="WerkstoffTeaserList-list">
+      {% for werkstoff in section.settings.werkstoff_list %}
+        <script>
+          console.log('{{ werkstoff.key }}');
+          console.log('{{ werkstoff | json }}');
+          console.log('{{ werkstoff.key | json }}');
+          console.log('{{ werkstoff.handle | json }}');
+        </script>
+        <a class="WerkstoffTeaser" href="/pages/material/{{ werkstoff.name | handle }}">
+          <h2 class="WerkstoffTeaser-title">{{ werkstoff.name }}</h2>
+          <p class="WerkstoffTeaser-description">{{ werkstoff.description_short }}</p>
+        </a>
+      {% endfor %}
+    </div>
   </div>
 </div>
+
+{% stylesheet %}
+  .WerkstoffTeaserList-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-auto-rows: 1fr;
+    gap: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .WerkstoffTeaser {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    background-color: rgb(var(--color-background-contrast));
+    color: inherit;
+    transition: background-color 150ms ease;
+
+    &:hover {
+      background-color: rgb(var(--color-button));
+      color: rgb(var(--color-button-text));
+    }
+  }
+
+  .WerkstoffTeaser-title {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: inherit;
+  }
+
+  .WerkstoffTeaser-description {
+    margin: 0;
+    color: inherit;
+  }
+{% endstylesheet %}
 
 {% schema %}
 {

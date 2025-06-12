@@ -14,16 +14,18 @@
   id="spider_chart--{{ werkstoff.id }}"
   data-label="{{ werkstoff.name }}"
   data-fields="
-    [&quot;{{ werkstoff.temperaturbestaendigkeit }}&quot;,
+    [
+    &quot;{{ werkstoff.schlagzaehigkeit_flexibilitaet }}&quot;,
+    &quot;{{ werkstoff.temperaturbestaendigkeit }}&quot;,
+    &quot;{{ werkstoff.kosten }}&quot;,
+    &quot;{{ werkstoff.farbvielfalt }}&quot;,
     &quot;{{ werkstoff.uv_bestaendigkeit }}&quot;,
     &quot;{{ werkstoff.chemische_bestaendigkeit }}&quot;,
-    &quot;{{ werkstoff.schlagzaehigkeit_flexibilitaet }}&quot;,
-    &quot;{{ werkstoff.kosten }}&quot;,
-    &quot;{{ werkstoff.steifigkeit }}&quot;,
     &quot;{{ werkstoff.oberflaechenqualitaet }}&quot;,
+    &quot;{{ werkstoff.steifigkeit }}&quot;,
     &quot;{{ werkstoff.detailgenauigkeit }}&quot;,
-    &quot;{{ werkstoff.farbvielfalt }}&quot;,
-    &quot;{{ werkstoff.umweltfreundlichkeit }}&quot;]
+    &quot;{{ werkstoff.umweltfreundlichkeit }}&quot;
+    ]
   "
 ></div>
 
@@ -75,15 +77,15 @@
       },
       xaxis: {
         categories: [
+          'Schlagzähigkeit/Flexibilitaet',
           'Temperaturbestaendigkeit',
+          'Kosten',
+          'Farbvielfalt',
           'UV-Bestaendigkeit',
           'Chemische Beständigkeit',
-          'Schlagzähigkeit/Flexibilitaet',
-          'Kosten',
-          'Steifigkeit',
           'Oberflächenqualität',
+          'Steifigkeit',
           'Detailgenauigkeit',
-          'Farbvielfalt',
           'Umweltfreundlichkeit',
         ],
         labels: {
@@ -101,23 +103,11 @@
               '#545454',
               '#545454',
             ],
-            fontSize: '10px',
+            fontSize: 'max(1.1vw, 10px)',
             fontFamily: 'inherit',
           },
         },
       },
-      responsive: [
-        {
-          breakpoint: 600,
-          xaxis: {
-            labels: {
-              style: {
-                fontSize: '14px',
-              },
-            },
-          },
-        },
-      ],
     };
 
     const chart = new ApexCharts(chartEl, options);

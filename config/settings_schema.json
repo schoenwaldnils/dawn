@@ -1,11 +1,11 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Dawn",
+    "theme_name": "Dawn Harms3D",
     "theme_version": "15.3.0",
-    "theme_author": "Shopify",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_author": "Harms3D / Nils Schönwald",
+    "theme_documentation_url": "https://github.com/schoenwaldnils/dawn",
+    "theme_support_url": "https://github.com/schoenwaldnils/dawn"
   },
   {
     "name": "t:settings_schema.logo.name",
