@@ -53,12 +53,12 @@
         {
           data: fields,
           fill: true,
-          backgroundColor: '0089D8',
-          // borderColor: 'rgb(255, 99, 132)',
-          // pointBackgroundColor: 'rgb(255, 99, 132)',
-          // pointBorderColor: '#fff',
-          // pointHoverBackgroundColor: '#fff',
-          // pointHoverBorderColor: 'rgb(255, 99, 132)'
+          backgroundColor: '#0089D8',
+          borderColor: 'green',
+          pointBackgroundColor: 'red',
+          pointBorderColor: 'pink',
+          pointHoverBackgroundColor: 'blue',
+          pointHoverBorderColor: 'yellow'
         },
       ],
     };
@@ -67,6 +67,14 @@
       type: 'radar',
       data: data,
       defaults: {
+        plugins: {
+          title: {
+            display: false,
+          },
+        },
+        elements: {
+          pointStyle: false,
+        }
         font: {
           size: 'max(1.1vw, 10px)',
         },
