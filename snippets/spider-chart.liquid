@@ -66,13 +66,16 @@
     const config = {
       type: 'radar',
       data: data,
-      defaults: {
+      options: {
         plugins: {
           legend: {
             display: false,
           },
         },
         elements: {
+          line: {
+            borderWidth: 0,
+          },
           point: {
             radius: 0,
             pointStyle: false,
@@ -80,13 +83,6 @@
         },
         font: {
           size: 'max(1.1vw, 12px)',
-        },
-      },
-      options: {
-        elements: {
-          line: {
-            borderWidth: 0,
-          },
         },
       },
     };
