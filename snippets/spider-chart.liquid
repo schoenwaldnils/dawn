@@ -55,10 +55,10 @@
           fill: true,
           backgroundColor: '#0089D8',
           borderColor: 'green',
-          pointBackgroundColor: 'red',
-          pointBorderColor: 'pink',
-          pointHoverBackgroundColor: 'blue',
-          pointHoverBorderColor: 'yellow',
+          // pointBackgroundColor: 'red',
+          // pointBorderColor: 'pink',
+          // pointHoverBackgroundColor: 'blue',
+          // pointHoverBorderColor: 'yellow',
         },
       ],
     };
@@ -68,15 +68,17 @@
       data: data,
       defaults: {
         plugins: {
-          title: {
+          legend: {
             display: false,
           },
         },
         elements: {
-          pointStyle: false,
+          point: {
+            pointStyle: false,
+          },
         },
         font: {
-          size: 'max(1.1vw, 10px)',
+          size: 'max(1.1vw, 12px)',
         },
       },
       options: {
