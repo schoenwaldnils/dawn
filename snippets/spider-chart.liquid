@@ -7,7 +7,7 @@
   {% render 'spider-chart', werkstoff: werkstoff %}
 {% endcomment %}
 
-<script src="{{ 'chart.umd.js' | asset_url }}" defer></script>
+<script src="{{ 'chart.umd.js' | asset_url }}" blocking></script>
 
 <div
   class="spider_chart"
