@@ -1,1 +1,136 @@
-{"sections":{"rich_text_tw6bCG":{"type":"rich-text","blocks":{"heading_wCRmCK":{"type":"heading","settings":{"heading":"<strong>{{ metaobject.name.value }}<\/strong>","heading_size":"h1"}}},"block_order":["heading_wCRmCK"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"left","color_scheme":"scheme-5","full_width":true,"padding_top":40,"padding_bottom":40}},"rich_text_PWyfBk":{"type":"rich-text","blocks":{"text_WXRh3J":{"type":"text","settings":{"text":"<p>{{ metaobject.beschreibung | metafield_tag }}<\/p><h2>Einsatzbeispiele<\/h2><p>{{ metaobject.einsatzbeispiele | metafield_tag }}<\/p><h2>Downloads<\/h2>"}},"button_FLDAXw":{"type":"button","settings":{"button_label":"Technisches Datenblatt","button_link":"","metaobject":"{{ metaobject }}","button_style_secondary":true,"button_label_2":"Sicherheitsdatenblatt","button_link_2":"","metaobject_2":"{{ metaobject }}","button_style_secondary_2":true}}},"block_order":["text_WXRh3J","button_FLDAXw"],"custom_css":[],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"left","color_scheme":"","full_width":false,"padding_top":40,"padding_bottom":52}},"spider_chart_jMJQJL":{"type":"spider-chart","name":"Spider Chart","settings":{"werkstoff":"{{ metaobject }}"}},"multicolumn_9bkwCm":{"type":"multicolumn","blocks":{"column_rWk3dA":{"type":"column","settings":{"title":"Vorteile","text":"<p><\/p><p>{{ metaobject.test_liste | metafield_tag }}<\/p>","link_label":"","link":""}},"column_pVPU8g":{"type":"column","settings":{"title":"Nachteile","text":"<p>{{ metaobject.negative_materialeigenschaften | metafield_tag }}<\/p>","link_label":"","link":""}}},"block_order":["column_rWk3dA","column_pVPU8g"],"custom_css":[".metafield-single_line_text_field {list-style-type: disclosure-closed;}",".metafield-single_line_text_field::marker {color: rgb(var(--color-button));}"],"name":"Pro und Contra","settings":{"title":"Vor- und Nachteile","heading_size":"h1","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":2,"column_alignment":"left","background_style":"primary","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}}},"order":["rich_text_tw6bCG","rich_text_PWyfBk","spider_chart_jMJQJL","multicolumn_9bkwCm"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_tw6bCG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wCRmCK": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>{{ metaobject.name.value }}</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wCRmCK"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_PWyfBk": {
+      "type": "rich-text",
+      "blocks": {
+        "text_WXRh3J": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ metaobject.beschreibung | metafield_tag }}</p><h2>Einsatzbeispiele</h2>{{ metaobject.liste_einsatzbeispiele | metafield_tag }}<h2>Downloads</h2>"
+          }
+        },
+        "button_FLDAXw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Technisches Datenblatt",
+            "button_link": "",
+            "metaobject": "{{ metaobject }}",
+            "button_style_secondary": true,
+            "button_label_2": "Sicherheitsdatenblatt",
+            "button_link_2": "",
+            "metaobject_2": "{{ metaobject }}",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "text_WXRh3J",
+        "button_FLDAXw"
+      ],
+      "custom_css": [],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "spider_chart_jMJQJL": {
+      "type": "spider-chart",
+      "name": "Spider Chart",
+      "settings": {
+        "werkstoff": "{{ metaobject }}"
+      }
+    },
+    "multicolumn_9bkwCm": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_rWk3dA": {
+          "type": "column",
+          "settings": {
+            "title": "Vorteile",
+            "text": "<p></p>{{ metaobject.liste_positive_materialeigenschaften | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pVPU8g": {
+          "type": "column",
+          "settings": {
+            "title": "Nachteile",
+            "text": "<p></p>{{ metaobject.liste_negative_materialeigenschaften | metafield_tag }}",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_rWk3dA",
+        "column_pVPU8g"
+      ],
+      "custom_css": [
+        ".metafield-single_line_text_field {list-style-type: disclosure-closed;}",
+        ".metafield-single_line_text_field::marker {color: rgb(var(--color-button));}"
+      ],
+      "name": "Pro und Contra",
+      "settings": {
+        "title": "Vor- und Nachteile",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "rich_text_tw6bCG",
+    "rich_text_PWyfBk",
+    "spider_chart_jMJQJL",
+    "multicolumn_9bkwCm"
+  ]
+}

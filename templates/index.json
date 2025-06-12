@@ -1,1 +1,620 @@
-{"sections":{"rich_text_VQCKQc":{"type":"rich-text","blocks":{"heading_rdVhzK":{"type":"heading","settings":{"heading":"<strong>Ihr Partner für den 3D-Druck<\/strong>","heading_size":"h1"}},"text_NG7Weh":{"type":"text","settings":{"text":"<p>Wir bieten individuelle Dienstleistungen an. Von der Konstruktion bis zum Druck.<\/p>"}}},"block_order":["heading_rdVhzK","text_NG7Weh"],"settings":{"desktop_content_position":"left","content_alignment":"left","color_scheme":"scheme-2","full_width":true,"padding_top":20,"padding_bottom":20}},"ss_video_with_text_R83zYX":{"type":"ss-video-with-text","blocks":{"heading_3NNCir":{"type":"heading","settings":{"heading":"3D-Druck Dienstleistung","heading_custom":false,"heading_font":"varela_round_n4","header_size":40,"font_weight":"400","heading_height":130,"heading_mt":20,"heading_color":"#545454"}},"text_zJfTQJ":{"type":"text","settings":{"text":"<p>Wir drucken Ihr 3D-Modell schnell und präzise.<\/p><p>Ob Einzeldruck oder Serienfertigung.<\/p><p><\/p><ul><li>maximal Größe: 360x360x360mm<\/li><li>Bis zu 5 verschiedene Farben möglich<\/li><\/ul><p><\/p><p>Sie können aus einer Vielzahl von Materialien und Farben wählen. <\/p><p><\/p><p>Gerne beraten wir Sie bei der Auswahl.<\/p>","text_custom":false,"text_font":"varela_round_n4","text_size":16,"text_height":130,"text_mt":20,"text_color":"#545454"}},"button_BbEkhV":{"type":"button","settings":{"button_label":"Kontakt aufnehmen","button_link":"shopify:\/\/pages\/kontakt","button_custom":false,"button_font":"varela_round_n4","button_size":16,"button_height":100,"button_style":"button","button_padding_horizontal":40,"button_padding_vertical":8,"button_radius":40,"button_border_thickness":1,"button_mt":20,"use_arrow":false,"button_text_color":"#ffffff","button_text_hover_color":"#ffffff","button_color":"#0089d8","button_hover_color":"#0089d8","button_border_color":"#0089d8","button_border_hover_color":"#0089d8"}}},"block_order":["heading_3NNCir","text_zJfTQJ","button_BbEkhV"],"name":"SS - Video with text #1","settings":{"media":"video","image_height":"small","desktop_image_width":"66","image_radius":20,"layout":"image_first","video":"shopify:\/\/files\/videos\/videobanner Logo v1 compressed.mp4","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","icon_play_size":30,"video_controls":false,"video_autoplay":true,"video_loop":true,"desktop_content_alignment":"left","content_padding_top":0,"content_padding_bottom":0,"content_padding_horizontal":5,"content_padding_horizontal_mobile":0,"content_spacing":20,"mobile_content_alignment":"left","wrapper_border":true,"content_border_thickness":1,"border_radius":20,"padding_inside":20,"shadow":false,"background_color":"#ffffff","background_gradient":"","border_color":"#000000","content_background_color":"#f8f8f8","content_border_color":"#f8f8f8","margin_top":0,"margin_bottom":0,"padding_top":20,"padding_bottom":20,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"content_layout":false,"content_width":120,"border_thickness":0,"lazy":true}},"ss_video_with_text_ELPfjC":{"type":"ss-video-with-text","blocks":{"heading_CtYyAB":{"type":"heading","settings":{"heading":"Rapid Prototyping","heading_custom":false,"heading_font":"varela_round_n4","header_size":40,"font_weight":"400","heading_height":130,"heading_mt":20,"heading_color":"#545454"}},"text_g88BM3":{"type":"text","settings":{"text":"<p>Sie benötigen Protoypen?<\/p>","text_custom":false,"text_font":"varela_round_n4","text_size":16,"text_height":130,"text_mt":20,"text_color":"#545454"}},"button_FFbCCC":{"type":"button","settings":{"button_label":"Rapid Prototyping","button_link":"shopify:\/\/pages\/rapid-prototyping","button_custom":false,"button_font":"varela_round_n4","button_size":16,"button_height":100,"button_style":"button","button_padding_horizontal":40,"button_padding_vertical":8,"button_radius":40,"button_border_thickness":1,"button_mt":20,"use_arrow":false,"button_text_color":"#ffffff","button_text_hover_color":"#ffffff","button_color":"#0089d8","button_hover_color":"#0089d8","button_border_color":"#0089d8","button_border_hover_color":"#0089d8"}}},"block_order":["heading_CtYyAB","text_g88BM3","button_FFbCCC"],"name":"SS - Video with text #1","settings":{"media":"image","image_height":"small","desktop_image_width":"50","image_radius":20,"layout":"image_first","video":"shopify:\/\/files\/videos\/Gewindebuchse v2 compressed.mp4","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","icon_play_size":30,"video_controls":false,"video_autoplay":true,"video_loop":true,"image":"shopify:\/\/shop_images\/Bild_2025-04-27_190213119.png","desktop_content_alignment":"left","content_padding_top":36,"content_padding_bottom":36,"content_padding_horizontal":5,"content_padding_horizontal_mobile":0,"content_spacing":20,"mobile_content_alignment":"left","wrapper_border":true,"content_border_thickness":1,"border_radius":20,"padding_inside":20,"shadow":false,"background_color":"#ffffff","background_gradient":"","border_color":"#000000","content_background_color":"#f8f8f8","content_border_color":"#f8f8f8","margin_top":0,"margin_bottom":0,"padding_top":0,"padding_bottom":20,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"content_layout":false,"content_width":120,"border_thickness":0,"lazy":true}},"ss_video_with_text_YFiADj":{"type":"ss-video-with-text","blocks":{"heading_ii3BAB":{"type":"heading","settings":{"heading":"Gewindebuchsen","heading_custom":false,"heading_font":"varela_round_n4","header_size":40,"font_weight":"400","heading_height":130,"heading_mt":20,"heading_color":"#545454"}},"text_imPNHP":{"type":"text","settings":{"text":"<p>Sie brauchen hochwertige Gewinde in Ihren Teilen?<\/p><p><\/p><p>Wir bieten Ihnen auf Wunsch die Buchsen und das Einpressen mit an.  <\/p><p><\/p><p>Sprechen Sie uns gerne an.<\/p>","text_custom":false,"text_font":"varela_round_n4","text_size":16,"text_height":130,"text_mt":20,"text_color":"#545454"}},"button_UGdmgw":{"type":"button","settings":{"button_label":"Kontakt aufnehmen","button_link":"shopify:\/\/pages\/kontakt","button_custom":false,"button_font":"varela_round_n4","button_size":16,"button_height":100,"button_style":"button","button_padding_horizontal":40,"button_padding_vertical":8,"button_radius":40,"button_border_thickness":1,"button_mt":20,"use_arrow":false,"button_text_color":"#ffffff","button_text_hover_color":"#ffffff","button_color":"#0089d8","button_hover_color":"#0089d8","button_border_color":"#0089d8","button_border_hover_color":"#0089d8"}}},"block_order":["heading_ii3BAB","text_imPNHP","button_UGdmgw"],"name":"SS - Video with text #1","settings":{"media":"video","image_height":"small","desktop_image_width":"50","image_radius":20,"layout":"image_first","video":"shopify:\/\/files\/videos\/Gewindebuchse v2 compressed.mp4","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","icon_play_size":30,"video_controls":false,"video_autoplay":true,"video_loop":true,"desktop_content_alignment":"left","content_padding_top":36,"content_padding_bottom":36,"content_padding_horizontal":5,"content_padding_horizontal_mobile":0,"content_spacing":20,"mobile_content_alignment":"left","wrapper_border":true,"content_border_thickness":1,"border_radius":20,"padding_inside":20,"shadow":false,"background_color":"#ffffff","background_gradient":"","border_color":"#000000","content_background_color":"#f8f8f8","content_border_color":"#f8f8f8","margin_top":0,"margin_bottom":0,"padding_top":0,"padding_bottom":20,"padding_horizontal":5,"padding_horizontal_mobile":1.5,"content_layout":false,"content_width":120,"border_thickness":0,"lazy":true}},"videobanner_g9dcfb":{"type":"videobanner","blocks":{"subheading_UVbALW":{"type":"subheading","settings":{"subheading_text":"YOUR SUBHEADING"}},"heading_ntARrP":{"type":"heading","settings":{"heading_text":"Banner Video","desktop_width":1000,"mobile_width":400,"desktop_heading_size":84,"mobile_heading_size":32,"h1_heading":false}},"text_ErwbRp":{"type":"text","settings":{"text_content":"<p>Your text goes here<\/p>"}},"button_rimMcR":{"type":"button","disabled":true,"settings":{"button_text":"CLICK HERE","button_link":"\/","button_text_color":"#ffffff","button_bg_color":"#000000","button_bg_hover":"#232323","button_radius":0,"font_weight":false,"font_size":15}}},"block_order":["subheading_UVbALW","heading_ntARrP","text_ErwbRp","button_rimMcR"],"disabled":true,"name":"Video Banner","settings":{"video":"shopify:\/\/files\/videos\/videobanner Logo v1 compressed.mp4","video_url":"","video-alt":"","content_position":"middle-center","desktop_height":600,"mobile_height":500}},"multirow_mpKeAX":{"type":"multirow","blocks":{"row_ENf9VR":{"type":"row","settings":{"caption":"Sie haben ein 3D-Modell","heading":"<strong>3D-Druck Dienstleistung<\/strong>","text":"<p>Wir drucken Ihr 3D-Modell schnell und präzise.<\/p><p>Von Einzeldruck bis Serienfertigung.<\/p><p>Sie können aus einer Vielzahl von Materialien und Farben wählen. Gerne Beraten wir Sie bei der Auswahl.<\/p>","button_label":"","button_link":""}},"row_nicYhe":{"type":"row","settings":{"caption":"Sie haben kein 3D-Modell","heading":"<strong>Individuelle Konstruktion<\/strong>","text":"<p>Wir entwerfen und drucken Modelle nach Ihren Wünschen. <\/p><p>Sprechen Sie uns gerne an.<\/p>","button_label":"","button_link":""}},"row_y3UD4G":{"type":"row","settings":{"caption":"Bildtext","heading":"Prototypen","text":"<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>","button_label":"Schaltflächenbeschriftung","button_link":""}},"row_cBfJhR":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/7M3A1159_6000x4000_v3.jpg","caption":"Bildtext","heading":"Reihe","text":"<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>","button_label":"","button_link":""}},"row_UViUt9":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/Bild_2025-04-27_190213119.png","caption":"Bildtext","heading":"Reihe","text":"<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>","button_label":"","button_link":""}},"row_GkjEjz":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/7M3A1233_v2.jpg","caption":"Bildtext","heading":"Reihe","text":"<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>","button_label":"","button_link":""}},"row_zrtrXy":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/7M3A1192_V1.jpg","caption":"Bildtext","heading":"Reihe","text":"<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>","button_label":"","button_link":""}},"row_J39RQe":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/7M3A1195_v1.jpg","caption":"Bildtext","heading":"Reihe","text":"<p>Kom<\/p>","button_label":"","button_link":""}}},"block_order":["row_ENf9VR","row_nicYhe","row_y3UD4G","row_cBfJhR","row_UViUt9","row_GkjEjz","row_zrtrXy","row_J39RQe"],"disabled":true,"settings":{"image_height":"medium","desktop_image_width":"medium","image_layout":"alternate-left","heading_size":"h1","text_style":"body","button_style":"secondary","desktop_content_position":"middle","desktop_content_alignment":"left","mobile_content_alignment":"left","section_color_scheme":"scheme-1","row_color_scheme":"scheme-2","padding_top":20,"padding_bottom":20}},"featured_collection":{"type":"featured-collection","settings":{"collection":"all","products_to_show":6,"title":"<strong>Artikel aus unserem Shop:<\/strong>","heading_size":"h2","description":"","show_description":false,"description_style":"body","columns_desktop":6,"enable_desktop_slider":false,"full_width":false,"show_view_all":true,"view_all_style":"solid","color_scheme":"scheme-2","image_ratio":"square","image_shape":"parallelogram","show_secondary_image":true,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"2","swipe_on_mobile":true,"padding_top":20,"padding_bottom":40}},"17419530865a98eae6":{"type":"apps","blocks":{"appio_google_reviews_carousel1_Mf99rL":{"type":"shopify:\/\/apps\/appio-google-reviews\/blocks\/carousel1\/25437a0d-2feb-4f5f-b07d-e313afa21656","settings":{"title_type":"h2","show_callout_layout":true,"card_background_color":"#f3f3f3","card_text_color":"#747171","star_color":"#0089d8","max_line_review_content":2,"auto_scroll":true,"slide_delay":3,"show_navigation_bar":false,"show_reviewer_avatar":false,"show_reviewer_name_detail":true,"show_review_date":false,"show_verified_badge":true,"show_review_photos":false,"show_liked_review":false,"show_business_summary":false,"show_business_summary_rating":false,"show_business_summary_total_review":false,"show_business_summary_summary_rating":false,"business_summary_color":"#3a454f","show_leave_review_button":true,"button_color":"#ffffff","button_background":"#0089d8"}}},"block_order":["appio_google_reviews_carousel1_Mf99rL"],"settings":{"include_margins":true}},"1741964588243153e9":{"type":"apps","blocks":{"sales_countup_section_block_nQnPLF":{"type":"shopify:\/\/apps\/sales-countup\/blocks\/sectionBlock\/89c80bfc-f6af-424a-a310-bff500702731","settings":{"shortcode":"<div class=\"els-cup-box\" data-id=\"11858\"><\/div>"}}},"block_order":["sales_countup_section_block_nQnPLF"],"settings":{"include_margins":true}},"174195902398127c05":{"type":"apps","settings":{"include_margins":true}}},"order":["rich_text_VQCKQc","ss_video_with_text_R83zYX","ss_video_with_text_ELPfjC","ss_video_with_text_YFiADj","videobanner_g9dcfb","multirow_mpKeAX","featured_collection","17419530865a98eae6","1741964588243153e9","174195902398127c05"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_VQCKQc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rdVhzK": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Ihr Partner für den 3D-Druck</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_NG7Weh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir bieten individuelle Dienstleistungen an. Von der Konstruktion bis zum Druck.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rdVhzK",
+        "text_NG7Weh"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "ss_video_with_text_R83zYX": {
+      "type": "ss-video-with-text",
+      "blocks": {
+        "heading_3NNCir": {
+          "type": "heading",
+          "settings": {
+            "heading": "3D-Druck Dienstleistung",
+            "heading_custom": false,
+            "heading_font": "varela_round_n4",
+            "header_size": 40,
+            "font_weight": "400",
+            "heading_height": 130,
+            "heading_mt": 20,
+            "heading_color": "#545454"
+          }
+        },
+        "text_zJfTQJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir drucken Ihr 3D-Modell schnell und präzise.</p><p>Ob Einzeldruck oder Serienfertigung.</p><p></p><ul><li>maximal Größe: 360x360x360mm</li><li>Bis zu 5 verschiedene Farben möglich</li></ul><p></p><p>Sie können aus einer Vielzahl von Materialien und Farben wählen. </p><p></p><p>Gerne beraten wir Sie bei der Auswahl.</p>",
+            "text_custom": false,
+            "text_font": "varela_round_n4",
+            "text_size": 16,
+            "text_height": 130,
+            "text_mt": 20,
+            "text_color": "#545454"
+          }
+        },
+        "button_BbEkhV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Kontakt aufnehmen",
+            "button_link": "shopify://pages/kontakt",
+            "button_custom": false,
+            "button_font": "varela_round_n4",
+            "button_size": 16,
+            "button_height": 100,
+            "button_style": "button",
+            "button_padding_horizontal": 40,
+            "button_padding_vertical": 8,
+            "button_radius": 40,
+            "button_border_thickness": 1,
+            "button_mt": 20,
+            "use_arrow": false,
+            "button_text_color": "#ffffff",
+            "button_text_hover_color": "#ffffff",
+            "button_color": "#0089d8",
+            "button_hover_color": "#0089d8",
+            "button_border_color": "#0089d8",
+            "button_border_hover_color": "#0089d8"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3NNCir",
+        "text_zJfTQJ",
+        "button_BbEkhV"
+      ],
+      "name": "SS - Video with text #1",
+      "settings": {
+        "media": "video",
+        "image_height": "small",
+        "desktop_image_width": "66",
+        "image_radius": 20,
+        "layout": "image_first",
+        "video": "shopify://files/videos/videobanner Logo v1 compressed.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "icon_play_size": 30,
+        "video_controls": false,
+        "video_autoplay": true,
+        "video_loop": true,
+        "desktop_content_alignment": "left",
+        "content_padding_top": 0,
+        "content_padding_bottom": 0,
+        "content_padding_horizontal": 5,
+        "content_padding_horizontal_mobile": 0,
+        "content_spacing": 20,
+        "mobile_content_alignment": "left",
+        "wrapper_border": true,
+        "content_border_thickness": 1,
+        "border_radius": 20,
+        "padding_inside": 20,
+        "shadow": false,
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_background_color": "#f8f8f8",
+        "content_border_color": "#f8f8f8",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "content_layout": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "ss_video_with_text_ELPfjC": {
+      "type": "ss-video-with-text",
+      "blocks": {
+        "heading_CtYyAB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rapid Prototyping",
+            "heading_custom": false,
+            "heading_font": "varela_round_n4",
+            "header_size": 40,
+            "font_weight": "400",
+            "heading_height": 130,
+            "heading_mt": 20,
+            "heading_color": "#545454"
+          }
+        },
+        "text_g88BM3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sie benötigen Protoypen?</p>",
+            "text_custom": false,
+            "text_font": "varela_round_n4",
+            "text_size": 16,
+            "text_height": 130,
+            "text_mt": 20,
+            "text_color": "#545454"
+          }
+        },
+        "button_FFbCCC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Rapid Prototyping",
+            "button_link": "shopify://pages/rapid-prototyping",
+            "button_custom": false,
+            "button_font": "varela_round_n4",
+            "button_size": 16,
+            "button_height": 100,
+            "button_style": "button",
+            "button_padding_horizontal": 40,
+            "button_padding_vertical": 8,
+            "button_radius": 40,
+            "button_border_thickness": 1,
+            "button_mt": 20,
+            "use_arrow": false,
+            "button_text_color": "#ffffff",
+            "button_text_hover_color": "#ffffff",
+            "button_color": "#0089d8",
+            "button_hover_color": "#0089d8",
+            "button_border_color": "#0089d8",
+            "button_border_hover_color": "#0089d8"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CtYyAB",
+        "text_g88BM3",
+        "button_FFbCCC"
+      ],
+      "name": "SS - Video with text #1",
+      "settings": {
+        "media": "image",
+        "image_height": "small",
+        "desktop_image_width": "50",
+        "image_radius": 20,
+        "layout": "image_first",
+        "video": "shopify://files/videos/Gewindebuchse v2 compressed.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "icon_play_size": 30,
+        "video_controls": false,
+        "video_autoplay": true,
+        "video_loop": true,
+        "image": "shopify://shop_images/Bild_2025-04-27_190213119.png",
+        "desktop_content_alignment": "left",
+        "content_padding_top": 36,
+        "content_padding_bottom": 36,
+        "content_padding_horizontal": 5,
+        "content_padding_horizontal_mobile": 0,
+        "content_spacing": 20,
+        "mobile_content_alignment": "left",
+        "wrapper_border": true,
+        "content_border_thickness": 1,
+        "border_radius": 20,
+        "padding_inside": 20,
+        "shadow": false,
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_background_color": "#f8f8f8",
+        "content_border_color": "#f8f8f8",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "content_layout": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "ss_video_with_text_YFiADj": {
+      "type": "ss-video-with-text",
+      "blocks": {
+        "heading_ii3BAB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gewindebuchsen",
+            "heading_custom": false,
+            "heading_font": "varela_round_n4",
+            "header_size": 40,
+            "font_weight": "400",
+            "heading_height": 130,
+            "heading_mt": 20,
+            "heading_color": "#545454"
+          }
+        },
+        "text_imPNHP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sie brauchen hochwertige Gewinde in Ihren Teilen?</p><p></p><p>Wir bieten Ihnen auf Wunsch die Buchsen und das Einpressen mit an.  </p><p></p><p>Sprechen Sie uns gerne an.</p>",
+            "text_custom": false,
+            "text_font": "varela_round_n4",
+            "text_size": 16,
+            "text_height": 130,
+            "text_mt": 20,
+            "text_color": "#545454"
+          }
+        },
+        "button_UGdmgw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Kontakt aufnehmen",
+            "button_link": "shopify://pages/kontakt",
+            "button_custom": false,
+            "button_font": "varela_round_n4",
+            "button_size": 16,
+            "button_height": 100,
+            "button_style": "button",
+            "button_padding_horizontal": 40,
+            "button_padding_vertical": 8,
+            "button_radius": 40,
+            "button_border_thickness": 1,
+            "button_mt": 20,
+            "use_arrow": false,
+            "button_text_color": "#ffffff",
+            "button_text_hover_color": "#ffffff",
+            "button_color": "#0089d8",
+            "button_hover_color": "#0089d8",
+            "button_border_color": "#0089d8",
+            "button_border_hover_color": "#0089d8"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ii3BAB",
+        "text_imPNHP",
+        "button_UGdmgw"
+      ],
+      "name": "SS - Video with text #1",
+      "settings": {
+        "media": "video",
+        "image_height": "small",
+        "desktop_image_width": "50",
+        "image_radius": 20,
+        "layout": "image_first",
+        "video": "shopify://files/videos/Gewindebuchse v2 compressed.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "icon_play_size": 30,
+        "video_controls": false,
+        "video_autoplay": true,
+        "video_loop": true,
+        "desktop_content_alignment": "left",
+        "content_padding_top": 36,
+        "content_padding_bottom": 36,
+        "content_padding_horizontal": 5,
+        "content_padding_horizontal_mobile": 0,
+        "content_spacing": 20,
+        "mobile_content_alignment": "left",
+        "wrapper_border": true,
+        "content_border_thickness": 1,
+        "border_radius": 20,
+        "padding_inside": 20,
+        "shadow": false,
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "content_background_color": "#f8f8f8",
+        "content_border_color": "#f8f8f8",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "content_layout": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "videobanner_g9dcfb": {
+      "type": "videobanner",
+      "blocks": {
+        "subheading_UVbALW": {
+          "type": "subheading",
+          "settings": {
+            "subheading_text": "YOUR SUBHEADING"
+          }
+        },
+        "heading_ntARrP": {
+          "type": "heading",
+          "settings": {
+            "heading_text": "Banner Video",
+            "desktop_width": 1000,
+            "mobile_width": 400,
+            "desktop_heading_size": 84,
+            "mobile_heading_size": 32,
+            "h1_heading": false
+          }
+        },
+        "text_ErwbRp": {
+          "type": "text",
+          "settings": {
+            "text_content": "<p>Your text goes here</p>"
+          }
+        },
+        "button_rimMcR": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "CLICK HERE",
+            "button_link": "/",
+            "button_text_color": "#ffffff",
+            "button_bg_color": "#000000",
+            "button_bg_hover": "#232323",
+            "button_radius": 0,
+            "font_weight": false,
+            "font_size": 15
+          }
+        }
+      },
+      "block_order": [
+        "subheading_UVbALW",
+        "heading_ntARrP",
+        "text_ErwbRp",
+        "button_rimMcR"
+      ],
+      "disabled": true,
+      "name": "Video Banner",
+      "settings": {
+        "video": "shopify://files/videos/videobanner Logo v1 compressed.mp4",
+        "video_url": "",
+        "video-alt": "",
+        "content_position": "middle-center",
+        "desktop_height": 600,
+        "mobile_height": 500
+      }
+    },
+    "multirow_mpKeAX": {
+      "type": "multirow",
+      "blocks": {
+        "row_ENf9VR": {
+          "type": "row",
+          "settings": {
+            "caption": "Sie haben ein 3D-Modell",
+            "heading": "<strong>3D-Druck Dienstleistung</strong>",
+            "text": "<p>Wir drucken Ihr 3D-Modell schnell und präzise.</p><p>Von Einzeldruck bis Serienfertigung.</p><p>Sie können aus einer Vielzahl von Materialien und Farben wählen. Gerne Beraten wir Sie bei der Auswahl.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_nicYhe": {
+          "type": "row",
+          "settings": {
+            "caption": "Sie haben kein 3D-Modell",
+            "heading": "<strong>Individuelle Konstruktion</strong>",
+            "text": "<p>Wir entwerfen und drucken Modelle nach Ihren Wünschen. </p><p>Sprechen Sie uns gerne an.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_y3UD4G": {
+          "type": "row",
+          "settings": {
+            "caption": "Bildtext",
+            "heading": "Prototypen",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": ""
+          }
+        },
+        "row_cBfJhR": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/7M3A1159_6000x4000_v3.jpg",
+            "caption": "Bildtext",
+            "heading": "Reihe",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_UViUt9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Bild_2025-04-27_190213119.png",
+            "caption": "Bildtext",
+            "heading": "Reihe",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_GkjEjz": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/7M3A1233_v2.jpg",
+            "caption": "Bildtext",
+            "heading": "Reihe",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_zrtrXy": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/7M3A1192_V1.jpg",
+            "caption": "Bildtext",
+            "heading": "Reihe",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_J39RQe": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/7M3A1195_v1.jpg",
+            "caption": "Bildtext",
+            "heading": "Reihe",
+            "text": "<p>Kom</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_ENf9VR",
+        "row_nicYhe",
+        "row_y3UD4G",
+        "row_cBfJhR",
+        "row_UViUt9",
+        "row_GkjEjz",
+        "row_zrtrXy",
+        "row_J39RQe"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "scheme-2",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all",
+        "products_to_show": 6,
+        "title": "<strong>Artikel aus unserem Shop:</strong>",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 6,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-2",
+        "image_ratio": "square",
+        "image_shape": "parallelogram",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    },
+    "17419530865a98eae6": {
+      "type": "apps",
+      "blocks": {
+        "appio_google_reviews_carousel1_Mf99rL": {
+          "type": "shopify://apps/appio-google-reviews/blocks/carousel1/25437a0d-2feb-4f5f-b07d-e313afa21656",
+          "settings": {
+            "title_type": "h2",
+            "show_callout_layout": true,
+            "card_background_color": "#f3f3f3",
+            "card_text_color": "#747171",
+            "star_color": "#0089d8",
+            "max_line_review_content": 2,
+            "auto_scroll": true,
+            "slide_delay": 3,
+            "show_navigation_bar": false,
+            "show_reviewer_avatar": false,
+            "show_reviewer_name_detail": true,
+            "show_review_date": false,
+            "show_verified_badge": true,
+            "show_review_photos": false,
+            "show_liked_review": false,
+            "show_business_summary": false,
+            "show_business_summary_rating": false,
+            "show_business_summary_total_review": false,
+            "show_business_summary_summary_rating": false,
+            "business_summary_color": "#3a454f",
+            "show_leave_review_button": true,
+            "button_color": "#ffffff",
+            "button_background": "#0089d8"
+          }
+        }
+      },
+      "block_order": [
+        "appio_google_reviews_carousel1_Mf99rL"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1741964588243153e9": {
+      "type": "apps",
+      "blocks": {
+        "sales_countup_section_block_nQnPLF": {
+          "type": "shopify://apps/sales-countup/blocks/sectionBlock/89c80bfc-f6af-424a-a310-bff500702731",
+          "settings": {
+            "shortcode": "<div class=\"els-cup-box\" data-id=\"11858\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "sales_countup_section_block_nQnPLF"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "174195902398127c05": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "rich_text_VQCKQc",
+    "ss_video_with_text_R83zYX",
+    "ss_video_with_text_ELPfjC",
+    "ss_video_with_text_YFiADj",
+    "videobanner_g9dcfb",
+    "multirow_mpKeAX",
+    "featured_collection",
+    "17419530865a98eae6",
+    "1741964588243153e9",
+    "174195902398127c05"
+  ]
+}
