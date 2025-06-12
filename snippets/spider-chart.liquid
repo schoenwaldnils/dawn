@@ -7,7 +7,7 @@
   {% render 'spider-chart', werkstoff: werkstoff %}
 {% endcomment %}
 
-<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="{{ 'chart.min.js' | asset_url }}" defer></script>
 
 <div
   class="spider_chart"
@@ -36,82 +36,50 @@
     const label = chartEl.dataset.label;
     const fields = JSON.parse(chartEl.dataset.fields);
 
-    const options = {
-      colors: ['#0089D8'],
-      series: [
+    const data = {
+      labels: [
+        'Schlagzähigkeit/Flexibilitaet',
+        'Temperaturbestaendigkeit',
+        'Kosten',
+        'Farbvielfalt',
+        'UV-Bestaendigkeit',
+        'Chemische Beständigkeit',
+        'Oberflächenqualität',
+        'Steifigkeit',
+        'Detailgenauigkeit',
+        'Umweltfreundlichkeit',
+      ],
+      datasets: [
         {
-          name: 'Eigenschaften',
           data: fields,
+          fill: true,
+          backgroundColor: '0089D8',
+          // borderColor: 'rgb(255, 99, 132)',
+          // pointBackgroundColor: 'rgb(255, 99, 132)',
+          // pointBorderColor: '#fff',
+          // pointHoverBackgroundColor: '#fff',
+          // pointHoverBorderColor: 'rgb(255, 99, 132)'
         },
       ],
-      chart: {
-        toolbar: {
-          show: false,
+    };
+
+    const config = {
+      type: 'radar',
+      data: data,
+      defaults: {
+        font: {
+          size: 'max(1.1vw, 10px)',
         },
-        // height: 400,
-        type: 'radar',
       },
-      // responsive: [
-      //   {
-      //     breakpoint: 750,
-      //     options: {
-      //       height: 600,
-      //     },
-      //   },
-      // ],
-      // title: {
-      //   text: label
-      // },
-      stroke: {
-        width: 2,
-      },
-      fill: {
-        opacity: 0.5,
-      },
-      markers: {
-        size: 0,
-      },
-      yaxis: {
-        show: false,
-        stepSize: 20,
-      },
-      xaxis: {
-        categories: [
-          'Schlagzähigkeit/Flexibilitaet',
-          'Temperaturbestaendigkeit',
-          'Kosten',
-          'Farbvielfalt',
-          'UV-Bestaendigkeit',
-          'Chemische Beständigkeit',
-          'Oberflächenqualität',
-          'Steifigkeit',
-          'Detailgenauigkeit',
-          'Umweltfreundlichkeit',
-        ],
-        labels: {
-          show: true,
-          style: {
-            colors: [
-              '#545454',
-              '#545454',
-              '#545454',
-              '#545454',
-              '#545454',
-              '#545454',
-              '#545454',
-              '#545454',
-              '#545454',
-              '#545454',
-            ],
-            fontSize: 'max(1.1vw, 10px)',
-            fontFamily: 'inherit',
+      options: {
+        elements: {
+          line: {
+            borderWidth: 0,
           },
         },
       },
     };
 
-    const chart = new ApexCharts(chartEl, options);
-
-    chart.render();
+    const chart = new Chart(chartEl, config);
   });
 {% endjavascript %}
