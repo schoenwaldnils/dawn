@@ -15,8 +15,6 @@
   data-label="{{ werkstoff.name }}"
   data-fields="
     [
-    &quot;{{ werkstoff.schlagzaehigkeit_flexibilitaet }}&quot;,
-    &quot;{{ werkstoff.temperaturbestaendigkeit }}&quot;,
     &quot;{{ werkstoff.kosten }}&quot;,
     &quot;{{ werkstoff.farbvielfalt }}&quot;,
     &quot;{{ werkstoff.uv_bestaendigkeit }}&quot;,
@@ -24,7 +22,9 @@
     &quot;{{ werkstoff.oberflaechenqualitaet }}&quot;,
     &quot;{{ werkstoff.steifigkeit }}&quot;,
     &quot;{{ werkstoff.detailgenauigkeit }}&quot;,
-    &quot;{{ werkstoff.umweltfreundlichkeit }}&quot;
+    &quot;{{ werkstoff.umweltfreundlichkeit }}&quot;,
+    &quot;{{ werkstoff.schlagzaehigkeit_flexibilitaet }}&quot;,
+    &quot;{{ werkstoff.temperaturbestaendigkeit }}&quot;
     ]
   "
 ></canvas>
@@ -38,8 +38,6 @@
 
     const data = {
       labels: [
-        'Schlagzähigkeit/Flexibilitaet',
-        'Temperaturbestaendigkeit',
         'Kosten',
         'Farbvielfalt',
         'UV-Bestaendigkeit',
@@ -48,6 +46,8 @@
         'Steifigkeit',
         'Detailgenauigkeit',
         'Umweltfreundlichkeit',
+        'Schlagzähigkeit/Flexibilitaet',
+        'Temperaturbestaendigkeit',
       ],
       datasets: [
         {
@@ -85,7 +85,7 @@
           },
         },
         font: {
-          size: 'max(1.1vw, 12px)',
+          size: 'max(1.2vw, 12px)',
         },
       },
     };
