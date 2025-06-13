@@ -16,10 +16,10 @@
   data-fields="
     [
     &quot;{{ werkstoff.schlagzaehigkeit_flexibilitaet }}&quot;,
-    &quot;{{ werkstoff.uv_bestaendigkeit }}&quot;,
+    &quot;{{ werkstoff.temperaturbestaendigkeit }}&quot;,
     &quot;{{ werkstoff.kosten }}&quot;,
     &quot;{{ werkstoff.farbvielfalt }}&quot;,
-    &quot;{{ werkstoff.temperaturbestaendigkeit }}&quot;,
+    &quot;{{ werkstoff.uv_bestaendigkeit }}&quot;,
     &quot;{{ werkstoff.chemische_bestaendigkeit }}&quot;,
     &quot;{{ werkstoff.oberflaechenqualitaet }}&quot;,
     &quot;{{ werkstoff.steifigkeit }}&quot;,
@@ -38,15 +38,15 @@
 
     const data = {
       labels: [
-        'Flexibilität',
-        'UV-Bestaendigkeit',
+        'Schlagzähigkeit/Flexibilität',
+        'Temperaturbeständigkeit',
         'Kosten',
         'Farbvielfalt',
-        'Temperaturbestaendigkeit',
+        'UV-Beständigkeit',
         'Chemische Beständigkeit',
         'Oberflächenqualität',
         'Steifigkeit',
-        'Detailtreue',
+        'Detailgenauigkeit',
         'Umweltfreundlichkeit',
       ],
       datasets: [
@@ -67,6 +67,12 @@
       type: 'radar',
       data: data,
       options: {
+        layout: {
+          padding: {
+            left: 10,
+            right: 10,
+          },
+        },
         clip: { left: -8, top: false, right: -8, bottom: false },
         plugins: {
           legend: {
