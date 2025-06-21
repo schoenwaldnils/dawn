@@ -111,7 +111,7 @@
             "caption": "",
             "heading": "FDM 3D-Druck",
             "text": "<p>Gerne bieten wir Ihnen den Druck auf unseren Maschinen an.</p><ul><li>Druckraum maximal 360x360x360mm </li><li>bis zu 5 verschiedenen Farben möglich</li></ul>",
-            "button_label": "Material- und Farbauswahl",
+            "button_label": "Materialauswahl",
             "button_link": "shopify://pages/material-und-farbauswahl"
           }
         },
