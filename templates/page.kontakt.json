@@ -48,9 +48,11 @@
           "settings": {
             "button_label": "Kontaktformular",
             "button_link": "shopify://pages/kontaktformular",
+            "metaobject": "",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
+            "metaobject_2": "",
             "button_style_secondary_2": false
           }
         },
@@ -59,9 +61,11 @@
           "settings": {
             "button_label": "",
             "button_link": "shopify://pages/kontaktformular",
+            "metaobject": "",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
+            "metaobject_2": "",
             "button_style_secondary_2": false
           }
         }
@@ -85,11 +89,13 @@
         "button_peLXCz": {
           "type": "button",
           "settings": {
-            "button_label": "telefonisch",
+            "button_label": "Telefon",
             "button_link": "tel:+4917632876488",
+            "metaobject": "",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
+            "metaobject_2": "",
             "button_style_secondary_2": false
           }
         },
@@ -98,9 +104,11 @@
           "settings": {
             "button_label": "",
             "button_link": "shopify://pages/kontaktformular",
+            "metaobject": "",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
+            "metaobject_2": "",
             "button_style_secondary_2": false
           }
         }
@@ -126,9 +134,11 @@
           "settings": {
             "button_label": "E-Mail an info@Harms3D.de",
             "button_link": "mailto:info@harms3d.de",
+            "metaobject": "",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
+            "metaobject_2": "",
             "button_style_secondary_2": false
           }
         },
@@ -137,9 +147,11 @@
           "settings": {
             "button_label": "",
             "button_link": "shopify://pages/kontaktformular",
+            "metaobject": "",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
+            "metaobject_2": "",
             "button_style_secondary_2": false
           }
         }
