@@ -587,7 +587,7 @@
         "sales_countup_section_block_nQnPLF": {
           "type": "shopify://apps/sales-countup/blocks/sectionBlock/89c80bfc-f6af-424a-a310-bff500702731",
           "settings": {
-            "shortcode": "<div class=\"els-cup-box\" data-id=\"11858\"></div>\n<style>\n  .els-cup-w-wrap { gap: 2rem; }\n  .els-cup-w {\n    width: 140px !important;\n    margin-right: 0 !important;\n    margin-left: 0 !important;\n    padding-right: 2rem !important;\n    padding-left: 2rem !important;\n}\n</style>"
+            "shortcode": "<div class=\"els-cup-box\" data-id=\"11858\"></div>\n<style>\n  .els-cup-w-wrap {column-gap: 2rem; }\n  .els-cup-w {\n    width: 140px !important;\n    margin-right: 0 !important;\n    margin-left: 0 !important;\n    padding-right: 2rem !important;\n    padding-left: 2rem !important;\n}\n</style>"
           }
         }
       },
