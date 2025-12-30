@@ -33,7 +33,7 @@
         "text_Gk3FQe": {
           "type": "text",
           "settings": {
-            "text": "Hersteller - Material - Farbe: {{ product.metafields.custom.material | metafield_text: field: 'label' }}",
+            "text": "Material und Farbe: {{ product.metafields.custom.material | metafield_text: field: 'label' }}",
             "text_style": "body"
           }
         },
