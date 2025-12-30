@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "main": {
       "type": "main-product",
@@ -33,7 +33,7 @@
         "text_Gk3FQe": {
           "type": "text",
           "settings": {
-            "text": "Material und Farbe: {{ product.metafields.custom.material | metafield_text: field: 'label' }}",
+            "text": "Hersteller - Material - Farbe: {{ product.metafields.custom.material | metafield_text: field: 'label' }}",
             "text_style": "body"
           }
         },
