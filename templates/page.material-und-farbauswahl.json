@@ -70,14 +70,14 @@
       "settings": {
         "werkstoff_list": [
           "pla",
+          "pla-woodfill",
           "petg",
+          "rpetg",
+          "asa",
           "pc",
           "pccf",
           "pa11-cf",
           "tpu-98a",
-          "pla-woodfill",
-          "rpetg",
-          "asa",
           "tpu-95-a"
         ]
       }
