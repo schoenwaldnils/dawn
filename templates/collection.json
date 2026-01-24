@@ -100,7 +100,7 @@
       "settings": {
         "collection": "filament-pla",
         "products_to_show": 25,
-        "title": "Filamente PLA",
+        "title": "PLA Filament",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -129,7 +129,7 @@
       "settings": {
         "collection": "filament-petg",
         "products_to_show": 25,
-        "title": "Filamente PETG",
+        "title": "PETG Filament",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -158,7 +158,7 @@
       "settings": {
         "collection": "filament-asa",
         "products_to_show": 25,
-        "title": "Filamente ASA",
+        "title": "ASA Filament",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -187,7 +187,65 @@
       "settings": {
         "collection": "filament-pc",
         "products_to_show": 25,
-        "title": "Filamente PC",
+        "title": "PC Filament",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 3,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_t4JBxp": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "filament-pccf",
+        "products_to_show": 25,
+        "title": "PCCF Filament",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 3,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_G4Fwjt": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "filament-pla-woodfill",
+        "products_to_show": 25,
+        "title": "PLA Woodfill Filament",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -240,6 +298,8 @@
     "featured_collection_qtqkFX",
     "featured_collection_FYPqDY",
     "featured_collection_Vgxir6",
+    "featured_collection_t4JBxp",
+    "featured_collection_G4Fwjt",
     "product-grid"
   ]
 }
