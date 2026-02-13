@@ -152,6 +152,35 @@
         "padding_bottom": 36
       }
     },
+    "featured_collection_pHL4Lg": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "filament-rpetg",
+        "products_to_show": 25,
+        "title": "rPETG Filament",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 3,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_FYPqDY": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -297,35 +326,6 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_pHL4Lg": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "collection": "filament-rpetg",
-        "products_to_show": 25,
-        "title": "rPETG Filament",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 3,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection_n9GtPd": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -411,13 +411,13 @@
     "rich_text_wEratV",
     "featured_collection_PfMJGU",
     "featured_collection_y6g6tD",
+    "featured_collection_G4Fwjt",
     "featured_collection_qtqkFX",
+    "featured_collection_pHL4Lg",
     "featured_collection_FYPqDY",
     "featured_collection_Vgxir6",
     "featured_collection_t4JBxp",
-    "featured_collection_G4Fwjt",
     "featured_collection_tgUyXe",
-    "featured_collection_pHL4Lg",
     "featured_collection_n9GtPd",
     "featured_collection_pMmGEE",
     "product-grid"
