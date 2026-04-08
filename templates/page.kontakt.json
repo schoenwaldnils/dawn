@@ -89,7 +89,7 @@
         "button_peLXCz": {
           "type": "button",
           "settings": {
-            "button_label": "Telefon",
+            "button_label": "Telefon: +49 176 32876488",
             "button_link": "tel:+4917632876488",
             "metaobject": "",
             "button_style_secondary": false,
@@ -132,7 +132,7 @@
         "button_zzhcFq": {
           "type": "button",
           "settings": {
-            "button_label": "E-Mail an info@Harms3D.de",
+            "button_label": "E-Mail: info@harms3d.de",
             "button_link": "mailto:info@harms3d.de",
             "metaobject": "",
             "button_style_secondary": false,
