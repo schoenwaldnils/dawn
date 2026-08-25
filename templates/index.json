@@ -547,6 +547,7 @@
       "blocks": {
         "appio_google_reviews_carousel1_Mf99rL": {
           "type": "shopify://apps/appio-google-reviews/blocks/carousel1/25437a0d-2feb-4f5f-b07d-e313afa21656",
+          "disabled": true,
           "settings": {
             "title_type": "h2",
             "show_callout_layout": true,
