@@ -572,10 +572,46 @@
             "button_color": "#ffffff",
             "button_background": "#0089d8"
           }
+        },
+        "judge_me_reviews_cards_carousel_JtGkWR": {
+          "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": false,
+            "reviews_selection": "all",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "star_rating": "4_to_5_star",
+            "show_review_media": true,
+            "display_order": "media_first",
+            "no_image_fallback": "review_text_only",
+            "max_reviews": 20,
+            "review_length": "small",
+            "text_size": "medium",
+            "image_ratio": "1",
+            "reviews_shown": 5,
+            "show_reviewer_name": true,
+            "show_product_name": true,
+            "hide_arrows_mobile": true,
+            "arrows_position": "sides",
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "header_text_color": "#545454",
+            "text_color": "#545454",
+            "card_color": "#F9F9F9",
+            "stars_color": "",
+            "arrows_color": "#545454",
+            "transition_speed": 5,
+            "header_text": "Was unsere Kunden sagen:",
+            "show_average_rating": false,
+            "rating_display": "default"
+          }
         }
       },
       "block_order": [
-        "appio_google_reviews_carousel1_Mf99rL"
+        "appio_google_reviews_carousel1_Mf99rL",
+        "judge_me_reviews_cards_carousel_JtGkWR"
       ],
       "settings": {
         "include_margins": true
@@ -603,6 +639,12 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "178767084942cfd6d3": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -615,6 +657,7 @@
     "featured_collection",
     "17419530865a98eae6",
     "1741964588243153e9",
-    "174195902398127c05"
+    "174195902398127c05",
+    "178767084942cfd6d3"
   ]
 }
