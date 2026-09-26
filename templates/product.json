@@ -126,10 +126,18 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "disclosures": {
+      "type": "disclosures",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
+    "disclosures",
     "related-products",
     "1787661894997045d1"
   ]
