@@ -82,6 +82,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "custom_liquid_fyFJUw": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"gewaehrleistungslabel\">\n  <img\n    src=\"https://cdn.shopify.com/s/files/1/0875/4459/4760/files/Gesetzliches-Gewa_ehrleistungslabel_SW_Web.jpg?v=1790417773\"\n    alt=\"Gesetzliche Gewährleistung\"\n    loading=\"lazy\"\n    style=\"display:block; width:100%; max-width:600px; height:auto; margin: 30px auto;\"\n  >\n</div>"
+          }
         }
       },
       "block_order": [
@@ -96,7 +102,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "custom_liquid_fyFJUw"
       ],
       "settings": {
         "enable_sticky_info": true,
